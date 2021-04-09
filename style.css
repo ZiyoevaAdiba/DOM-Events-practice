@@ -22,6 +22,7 @@ input{
   color: #952323;
   font-size: 20px;
 }
+
 .coolTitle {
   text-align: center;
   font-family: 'Oswald', Helvetica, sans-serif;
@@ -45,7 +46,6 @@ button {
   border-color: white;
   color: #952323;
   font-size: 18px;
-}
 
 .done {
   text-decoration: line-through;
