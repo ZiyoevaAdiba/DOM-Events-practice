@@ -5,11 +5,7 @@ var listItems = document.getElementsByTagName("li");
 
 function createButton(li){
 	var bttn = document.createElement("button");
-<<<<<<< HEAD
 	bttn.appendChild(document.createTextNode("Delete"));
-=======
-	bttn.appendChild(document.createTextNode("delete"));
->>>>>>> 3580b9efcd44c5c7fc932935719bb5772d4693fb
 	li.appendChild(bttn);
 	bttn.classList.add("deleteItem");
 }
