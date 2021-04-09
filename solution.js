@@ -5,7 +5,7 @@ var listItems = document.getElementsByTagName("li");
 
 function createButton(li){
 	var bttn = document.createElement("button");
-	bttn.appendChild(document.createTextNode("delete"));
+	bttn.appendChild(document.createTextNode("Delete"));
 	li.appendChild(bttn);
 	bttn.classList.add("deleteItem");
 }

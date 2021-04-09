@@ -1,21 +1,50 @@
+body, html {
+  height: 100%;
+  background: linear-gradient(to right top, #d16ba5, #86A8E7, #5ffbf1, rgb(0, 255, 42));/*/(#A686D9, #F9F871 ); */
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(91, 25, 134);
+}
+#center {
+  text-align: center;
+  /* display: flex;
+  justify-content: center; */
+  /* align-items: center; */
+}
+
+ul {
+  list-style-type: none;
+}
+input{
+  border-radius: 10px;
+  padding: 5px;
+  border: white;
+  color: #952323;
+  font-size: 20px;
+}
 .coolTitle {
   text-align: center;
   font-family: 'Oswald', Helvetica, sans-serif;
   font-size: 40px;
-  transform: skewY(-10deg);
   letter-spacing: 4px;
   word-spacing: -8px;
-  color: tomato;
-  text-shadow: 
-    -1px -1px 0 firebrick,
-    -2px -2px 0 firebrick,
-    -3px -3px 0 firebrick,
-    -4px -4px 0 firebrick,
-    -5px -5px 0 firebrick,
-    -6px -6px 0 firebrick,
-    -7px -7px 0 firebrick,
-    -8px -8px 0 firebrick,
-    -30px 20px 40px dimgrey;
+  color: #fff;
+  text-shadow:     
+    3px 3px 20px #ae54b6,
+    -2px 1px 30px #ae54b6;
+}
+
+li{
+  margin: 10px;
+
+}
+
+button {
+  background-color: white;
+  border-radius: 10px;
+  border-color: white;
+  color: #952323;
+  font-size: 18px;
 }
 
 .done {

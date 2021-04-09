@@ -41,7 +41,7 @@ function checkTask(event) {
 // creating buttons for each li element
 function createButton(todo) {
 	var deleteButton = document.createElement("button");
-	deleteButton.appendChild(document.createTextNode("delete"));
+	deleteButton.appendChild(document.createTextNode("Delete"));
 	todo.appendChild(deleteButton);
 }
 
